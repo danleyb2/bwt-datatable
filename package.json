@@ -16,7 +16,7 @@
     "version": "3.0.0",
     "author": "Blue Water Tracks",
     "license": "AGPL-3.0-only",
-    "files": ['*'],
+    "files": ["*"],
     "main": "bwt-datatable.js",
     "dependencies": {
         "@polymer/polymer": "^3.0.0",
