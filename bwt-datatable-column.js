@@ -158,7 +158,7 @@ class PaperDatatableColumn extends mixinBehaviors([Templatizer], PolymerElement)
 			_styleString: {
 				type: String,
 				value: function () {
-					var alignment = this.align || this.getAttribute('align') || 'left';
+					var alignment = this.getAttribute('align') || this.align || 'left';
 					var minWidth = this.width || this.getAttribute('width') || 0;
 					minWidth += parseFloat(minWidth).toString() === minWidth ? 'px' : '';
 					var styleString = this.getAttribute('style') || '';
